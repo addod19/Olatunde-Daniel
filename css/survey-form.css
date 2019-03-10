@@ -1,0 +1,45 @@
+#main {
+  background-color: white;
+  color: black;
+}
+
+#main > * {
+  align-content: center;
+}
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+#survey-form {
+  text-align: center;
+}
+#title:hover {
+  color: red;
+}
+select{
+  background-colr: black;
+  color: white;
+}
+input:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 700px) {
+  .form , #name, #email, #number{
+    width: 25%;
+    height: 30px;
+  }
+  textarea {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 690px) {
+  .form , #name, #email, #number{
+    width: 75%;
+    height: 30px;
+  }
+  textarea {
+    width: 75%;
+  }
+}
