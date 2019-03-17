@@ -2,17 +2,138 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="css/survey-form.css">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="css/landing-page.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
 
   <body >
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <div id="wrapper">
-    
+    <div class="container"><!---main --->
+      <header id="header">
+
+        <!-- beginning of navbar -->
+        <nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
+        <!--  <div class="container">  -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="landing-page.html">
+            <img class="img img-circle" src="https://static.pexels.com/photos/163007/phone-old-year-built-1955-bakelite-163007.jpeg" id="header-img" height="50px" width="50px"/>
+              Raw Products
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="app-navbar-collapse">
+          <ul class="nav navbar-nav" id="navoo">
+                        &nbsp;
+          <li><a href="#features" class="nav-link">
+            <span id="color" aria-hidden="true">Features</span>
+          </a></li>
+          <li><a href="#works" class="nav-link">
+            <span id="color" aria-hidden="true">How it works</span>
+          </a></li>
+          <li><a class="nav-link" href="#pricing">
+            <span id="color" aria-hidden="true">Pricing</span>
+          </a></li>
+          </ul>
+
+        </div>
+                     <!---   </div>  -->
+        </nav>
+                 <!-- end of navbar -->
+      </header>
+      <div class="container">
+        <div class="row">
+          <div id="">
+            <img src="image/image2.jpg" width="100%" height="500px" alt="" id="img"/>
+            <span id="text-img">we provide you with what you need</span>
+          </div>
+        </div>
+      </div><hr>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4" id="center">
+            <form action="https://www.freecodecamp.com/email-submit" method="" id="form" class="form-group" name="form1">
+              <input  name="email"class="form-control" type="email" id="email" placeholder="Enter e-mail"/>
+              <input onclick="submit()" type="submit" id="submit" value="subscribe" class="btn btn-success"/>
+            </form>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+      </div><hr>
+      <div class="container">
+        <div class="row" id="features">
+          <p>so random text to fix my code.Freecodecamp together with microverse
+          is making a difference in the programming world.Hacker rank helps
+          me with algorithms and problem solving skills that i need to become
+          a great programmer that i am meant to be.
+          </p>
+
+          <p>so random text to fix my code.Freecodecamp together with microverse
+          is making a difference in the programming world.Hacker rank helps
+          me with algorithms and problem solving skills that i need to become
+          a great programmer that i am meant to be.
+          </p>
+
+          <p>so random text to fix my code.Freecodecamp together with microverse
+          is making a difference in the programming world.Hacker rank helps
+          me with algorithms and problem solving skills that i need to become
+          a great programmer that i am meant to be.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="works">
+          <h2 class="text-center">How it works</h2>
+          <div id="content">
+            <video id="video" width="100%" height="240" controls>
+              <source src="https://www.youtube.com/watch?v=spgtD1zFVxk" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </div><hr>
+    <div class="container">
+      <div class="row" id="pricing">
+        <div class="col-md-4">
+          <div id="div-wrap">
+            <div id="inHeader">First pricing</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="div-wrap">
+            <div id="inHeader">Second pricing</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="div-wrap">
+            <div id="inHeader">Third pricing</div>
+          </div>
+        </div>
+      </div>
+    </div><hr>
+    <footer>
+      <div class="container">
+        <div class="row" id="far-right">
+          <div class="col-xs-4 col-sm-4 col-md-4">Privacy</div>
+          <div class="col-xs-4 col-sm-4 col-md-4">Terms</div>
+          <div class="col-xs-4 col-sm-4 col-md-4">Contact</div>
+        </div><br>
+        <div class="row" id="far-right">
+          <div class="col-xs-12 col-sm-12 col-md-12">Copyright 2019, Olantunde-Daniel</div>
+        </div>
+      </div>
+    </footer>
   </div>
-    <script  src="js/survey-form.js"></script>
+    <script  src="js/landing-page.js"></script>
     <script  src="js/bootstrap.min.js"></script>
   </body>
 </html>
